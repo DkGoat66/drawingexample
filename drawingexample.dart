@@ -12,6 +12,7 @@ class DrawingExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
+      // Define a gesture for tap detection 
       onTap: () => print('tap'),
       child: CustomPaint(
         painter: FilledPathPainter(
