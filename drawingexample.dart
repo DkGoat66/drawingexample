@@ -7,7 +7,8 @@ final trianglePath = parseSvgPathData('M200 0 L75 200 L225 200 Z');
 // Main widget for the drawing example
 class DrawingExample extends StatelessWidget {
   const DrawingExample({super.key});
-  
+
+  // Build method that defines the UI
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
