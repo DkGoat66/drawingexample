@@ -11,6 +11,8 @@ class FilledPathPainter extends CustomPainter {
   final Path path;
   final Color color;
 
+  // Determines whether the painter should repaint
+  // Repaints if the path or color has changed
   @override
   bool shouldRepaint(FilledPathPainter oldDelegate) =>
       oldDelegate.path != path || oldDelegate.color != color;
