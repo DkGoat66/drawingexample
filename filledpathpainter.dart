@@ -14,7 +14,7 @@ class FilledPathPainter extends CustomPainter {
   @override
   bool shouldRepaint(FilledPathPainter oldDelegate) =>
       oldDelegate.path != path || oldDelegate.color != color;
-
+//Paint the specified path on the given canvas
   @override
   void paint(Canvas canvas, Size size) {
     canvas.drawPath(
