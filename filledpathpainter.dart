@@ -1,7 +1,7 @@
 //Import the Flutter Material library
 import 'package:flutter/material.dart';
 
-
+// Custom painter class to fill a path with a specified color 
 class FilledPathPainter extends CustomPainter {
   const FilledPathPainter({
     required this.path,
