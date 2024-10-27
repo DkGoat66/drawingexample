@@ -26,7 +26,7 @@ class FilledPathPainter extends CustomPainter {
         ..style = PaintingStyle.fill,
     );
   }
-
+// Hit test to check if a given position is within the painted path
   @override
   bool hitTest(Offset position) => path.contains(position);
 }
