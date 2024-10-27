@@ -19,6 +19,7 @@ class FilledPathPainter extends CustomPainter {
 //Paint the specified path on the given canvas
   @override
   void paint(Canvas canvas, Size size) {
+    // Draws the path on the canvas with the specified color
     canvas.drawPath(
       path,
       Paint()
