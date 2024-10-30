@@ -14,6 +14,7 @@ class DrawingExample extends StatelessWidget {
     return GestureDetector(
       // Define a gesture for tap detection 
       onTap: () => print('tap'),
+      // CustomPaint widget to paint custom shapes
       child: CustomPaint(
         painter: FilledPathPainter(
           path: trianglePath,
