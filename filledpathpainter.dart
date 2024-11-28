@@ -7,7 +7,7 @@ class FilledPathPainter extends CustomPainter {
     required this.path,
     required this.color,
   });
-
+  //Data
   final Path path;
   final Color color;
 
