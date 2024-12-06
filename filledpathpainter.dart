@@ -1,4 +1,4 @@
-//Import the Flutter Material library
+//Import the necessary package: Flutter Material library
 import 'package:flutter/material.dart';
 
 // Custom painter class to fill a path with a specified color 
